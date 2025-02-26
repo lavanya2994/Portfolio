@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- meta -->
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Lavanya Portfolio Template</title>
+  <meta content="" name="keywords">
+  <meta content="" name="description">
+  <!-- Google Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css?family=Poppins:300,300i,400,400i,500,500i,600,600i,700,700i|Playfair+Display:400,400i,700,700i,900,900i"
+    rel="stylesheet">
+  <!-- Bootstrap CSS File -->
+  <link href="{{url_for('static',filename='lib/bootstrap/css/bootstrap.min.css')}}" rel="stylesheet">
+  <!-- Libraries CSS Files -->
+  <link href="{{url_for('static',filename='lib/ionicons/css/ionicons.min.css')}}" rel="stylesheet">
+  <link href="{{url_for('static',filename='lib/owlcarousel/assets/owl.carousel.min.css')}}" rel="stylesheet">
+  <link href="{{url_for('static',filename='lib/magnific-popup/magnific-popup.css')}}" rel="stylesheet">
+  <link href="{{url_for('static',filename='lib/hover/hover.min.css')}}" rel="stylesheet">
+  <!-- Main Stylesheet File -->
+  <link href="{{url_for('static',filename='css/style.css')}}" rel="stylesheet">
+  <!-- Responsive css -->
+  <link href="{{url_for('static',filename='css/responsive.css')}}" rel="stylesheet">
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="{{url_for('static',filename='images/favicon.png')}}">
+  <!-- =======================================================
+    Theme Name: Lavanya
+    Theme URL: https://bootstrapmade.com/folio-bootstrap-portfolio-template/
+    Author: BootstrapMade.com
+    Author URL: https://bootstrapmade.com
+  ======================================================= -->
+</head>
+
+<body>
+  <!-- start section navbar -->
+  <nav id="main-nav">
+    <div class="row">
+      <div class="container">
+        <div class="logo">
+          <a href="{{ url_for('home') }}">
+            <img src="{{ url_for('static', filename='images/logo.png') }}" alt="logo">
+          </a>
+        </div>
+        <div class="responsive"><i data-icon="m" class="ion-navicon-round"></i></div>
+        <ul class="nav-menu list-unstyled">
+          <li><a href="#header" class="smoothScroll">Home</a></li>
+          <li><a href="#about" class="smoothScroll">About</a></li>
+          <li><a href="#team" class="smoothScroll">team</a></li>
+          <li><a href="#work" class="smoothScroll">work</a></li>
+          <li><a href="#Resume" class="smoothScroll">Resume</a></li>
+          <li><a href="#contact" class="smoothScroll">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- End section navbar -->
+  <!-- start section header -->
+  <div id="header" class="home">
+    <div class="container">
+      <div class="header-content">
+        <h1>I'm Peddamurthy </h1>
+        <p></span>designer, developer, tester</p>
+        <ul class="list-unstyled list-social">
+          <li><a href="https://www.facebook.com/profile.php?id=61573391287242"><i class="ion-social-facebook"></i></a>
+          </li>
+          <li><a href="https://www.instagram.com/lavanya._29904/"><i class="ion-social-instagram"></i></a></li>
+          <li><a href="https://peddamurthylavanya5@gmail.com"><i class="ion-email"></i></a></li>
+          <li><a href="https://github.com/lavanya2994/Portfolio.git"><i class="ion-social-github"></i></a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <!-- End section header -->
+  <!-- start section about us -->
+  <div id="about" class="paddsection">
+    <div class="container">
+      <div class="row justify-content-between">
+        <div class="col-lg-4 ">
+          <div class="div-img-bg">
+            <div class="about-img">
+              <img src="{{url_for('static',filename='images/me.jpg')}}" class="img-responsive" alt="me">
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-7">
+          <div class="about-descr">
+            I’m Peddamurthy Lavanya, a passionate UI/UX Designer based in Austin. I love creating clean, simple, and
+            unique designs that enhance user experiences. My skills extend beyond design—I also enjoy crafting brand
+            identities, icons, and illustrations.
+            I have a strong foundation in C, Java, DBMS, Data Structures, OS, PHP, and HTML, along with proficiency in
+            MS Office and Statistical Analysis. My goal is to continuously improve my skills and contribute innovative
+            ideas while being mentored toward a successful career.
+            <p class="separator">I thrive in collaborative environments where I can contribute ideas while learning from
+              others. With strong communication and interpersonal skills, I enjoy working on projects that challenge my
+              creativity and technical abilities.
+              I am eager to grow in my career, take on new challenges, and continue developing innovative solutions that
+              enhance user experiences.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- end section about us -->
+  <!-- start section services -->
+  <div id="services">
+    <div class="container">
+      <div class="services-carousel owl-theme"><!-- Soft Skills -->
+        <div class="services-block">
+          <i class="ion-ios-people-outline"></i> <!-- Icon for Soft Skills -->
+          <span>Soft Skills</span>
+          <p class="separator">An extrovert with excellent teamwork and leadership qualities.</p>
+        </div>
+        <!-- Programming -->
+        <div class="services-block">
+          <i class="ion-ios-gear-outline"></i> <!-- Icon for Programming -->
+          <span>Programming</span>
+          <p class="separator">Proficient in C, Java, PHP, HTML, and Database Management Systems (DBMS).</p>
+        </div>
+        <div class="services-block">
+          <i class="ion-ios-gear-outline"></i>
+          <span>Operating Systems & Data Structures</span>
+          <p class="separator">Strong understanding of Operating Systems, Data Structures, and Algorithms.</p>
+        </div>
+        <div class="services-block">
+          <i class="ion-ios-analytics-outline"></i>
+          <span>Statistical Analysis</span>
+          <p class="separator">Experience in data analysis and problem-solving with statistical methods.</p>
+        </div>
+        <div class="services-block">
+          <i class="ion-ios-briefcase-outline"></i>
+          <span>MS Office Suite</span>
+          <p class="separator">Proficient in Microsoft Office, including Word, Excel, and PowerPoint.</p>
+        </div>
+        <div class="services-block">
+          <i class="ion-ios-people-outline"></i>
+          <span>Communication & Interpersonal Skills</span>
+          <p class="separator">An effective communicator with strong relationship-building abilities.</p>
+        </div>
+      </div>
+    </div>
+    <!-- end section services -->
+    <!-- start section portfolio -->
+    <div id="team" class="text-center paddsection">
+      <div class="container">
+        <div class="section-title text-center">
+          <h2>team</h2>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="team-list">
+              <ul class="nav list-unstyled" id="team-flters">
+                <li class="filter filter-active" data-filter=".all"></li>
+                <li class="filter" data-filter=".branding">
+                  <h4>Rikhitha</h4>
+                </li>
+                <li class="filter" data-filter=".mockups">
+                  <h4>Manasa</h4>
+                </li>
+                <li class="filter" data-filter=".uikits">
+                  <h4>Jyothsna</h4>
+                </li>
+                <li class="filter" data-filter=".webdesign">
+                  <h4>Nageswari</h4>
+                </li>
+              </ul>
+              <style>
+                .nav {
+                  display: flex;
+                  gap: 160px;
+                  /* Adds space between list items */
+                }
+              </style>
+            </div>
+            <div class="container">
+              <div class="row team-container"> <!-- Added row class here -->
+                <div class="col-lg-3 col-md-12 portfolio-thumbnail all branding uikits webdesign">
+                  <a class="popup-img" href="{{url_for('static',filename='images/portfolio/1.jpg')}}">
+                    <img src="{{url_for('static',filename='images/portfolio/team-1.jpg')}}" alt="img">
+                    <h5>Team leader</h5>
+                    <h4>
+                      <p>Hey, I’m Rikhitha, the founder of our team, leading the way in innovation and execution.</p>
+                    </h4>
+                  </a>
+                </div>
+                <div class="col-lg-3 col-md-12 portfolio-thumbnail all mockups uikits photography">
+                  <a class="popup-img" href="{{url_for('static',filename='images/portfolio/2.jpg')}}">
+                    <img src="{{url_for('static',filename='images/portfolio/team-2.jpg')}}" alt="img">
+                    <h5>QA & Tester</h5>
+                    <h4>
+                      <p>Ensures quality by testing applications and identifying potential errors for a seamless
+                        experience.</p>
+                    </h4>
+                  </a>
+                </div>
+                <div class="col-lg-3 col-md-12 portfolio-thumbnail all branding webdesign photography">
+                  <a class="popup-img" href="{{url_for('static',filename='images/portfolio/3.jpg')}}">
+                    <img src="{{url_for('static',filename='images/portfolio/team-4.jpg')}}" alt="img">
+                    <h5>Information Analyst</h5>
+                    <h4>
+                      <p>Gathers and analyzes information to support development and decision-making.</p>
+                    </h4>
+                  </a>
+                </div>
+                <div class="col-lg-3 col-md-12 portfolio-thumbnail all mockups webdesign photography">
+                  <a class="popup-img" href="{{url_for('static',filename='images/portfolio/4.jpg')}}">
+                    <img src="{{url_for('static',filename='images/portfolio/team-5.jpg')}}" alt="img">
+                    <h5>Frontend Developer</h5>
+                    <h4>
+                      <p>Expert in crafting stunning and user-friendly interfaces with the latest frontend technologies.
+                      </p>
+                    </h4>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div id="work" class="text-center paddsection"></div>
+            <section class="recent-works text-center" id="two">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-12">
+                    <h3 class="title">Recent <span class="themecolor">Works</span></h3>
+                    <p class="a-slog">I've recently worked on projects using Python.</p>
+                  </div>
+                </div>
+                <div class="gap"></div>
+                <div class="row">
+                  <div class="col-sm-4 port-item margin-bottom">
+                    <div class="item-img-wrap">
+                      <img src="{{url_for('static',filename='images/work-1.jpg')}}" class="img-responsive"
+                        alt="workimg">
+                      <div class="item-img-overlay">
+                        <a href="{{url_for('static',filename='images/work-1.jpg')}}" class="show-image">
+                          <span></span>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="work-desc">
+                      <h3><a href="#">Mockup Design</a></h3>
+                      <span>Photoshop</span>
+                    </div>
+                  </div> <!-- /portfolio-item -->
+                  <div class="col-sm-4 port-item margin-bottom">
+                    <div class="item-img-wrap">
+                      <img src="{{url_for('static',filename='images/work-2.jpg')}}" class="img-responsive"
+                        alt="workimg">
+                      <div class="item-img-overlay">
+                        <a href="{{url_for('static',filename='images/work-2.jpg')}}" class="show-image">
+                          <span></span>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="work-desc">
+                      <h3><a href="#">Graphic Design</a></h3>
+                      <span>Illustrator</span>
+                    </div>
+                  </div> <!-- /portfolio-item -->
+
+                  <div class="col-sm-4 port-item margin-bottom">
+                    <div class="item-img-wrap">
+                      <img src="{{url_for('static',filename='images/work-3.jpg')}}" class="img-responsive"
+                        alt="workimg">
+                      <div class="item-img-overlay">
+                        <a href="{{url_for('static',filename='images/work-3.jpg')}}" class="show-image">
+                          <span></span>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="work-desc">
+                      <h3><a href="#">Web Design</a></h3>
+                      <span>Html / Css</span>
+                    </div>
+                  </div> <!-- /portfolio-item -->
+                </div> <!-- /row -->
+              </div> <!-- /container -->
+            </section>
+
+
+            <!-- End section portfolio -->
+            <!-- start section journal -->
+            <div id="Resume" class="paddsection">
+              <div class="container">
+                <div class="section-title text-center">
+                  <h2>Resume</h2>
+                </div>
+              </div>
+              <p>
+              <h4 style="text-align:center">
+                Would you like to learn more about me?
+                Feel free to download my resume for more details!
+              </h4>
+
+              </p>
+              <div class="center-container">
+                <a href="{{ url_for('static', filename='LAVANYA.pdf') }}" target="_blank" class="resume-btn">
+                  <i class="fas fa-download"></i> Download Resume
+                </a>
+              </div>
+              <!-- End section journal -->
+              <!-- start sectoion contact -->
+              <div id="contact" class="paddsection">
+                <div class="container">
+                  <div class="contact-block1">
+                    <div class="row">
+                      <div class="col-lg-6">
+                        <div class="contact-contact">
+                          <h2 class="mb-30">GET IN TOUCH</h2>
+                          <ul class="contact-details">
+                            <li><span>42-2/1-79,stree:5</span></li>
+                            <li><span>devi nagar, vijayawada,Andhra pradesh</span></li>
+                            <li><span>+91 8297679985</span></li>
+                            <li><span>peddamurthylavanya5@gmail.com</span></li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="col-lg-6">
+                        <form action="{{ url_for('contact') }}" method="post" role="form" class="contactForm">
+                          <div class="row">
+                            <div id="sendmessage">Your message has been sent. Thank you!</div>
+                            <div id="errormessage"></div>
+                            <div class="col-lg-6">
+                              <div class="form-group contact-block1">
+                                <input type="text" name="name" class="form-control" id="name" placeholder="Your Name"
+                                  data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                                <div class="validation"></div>
+                              </div>
+                            </div>
+                            <div class="col-lg-6">
+                              <div class="form-group">
+                                <input type="email" class="form-control" name="email" id="email"
+                                  placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+                                <div class="validation"></div>
+                              </div>
+                            </div>
+                            <div class="col-lg-12">
+                              <div class="form-group">
+                                <input type="text" class="form-control" name="subject" id="subject"
+                                  placeholder="Subject" data-rule="minlen:4"
+                                  data-msg="Please enter at least 8 chars of subject" />
+                                <div class="validation"></div>
+                              </div>
+                            </div>
+                            <div class="col-lg-12">
+                              <div class="form-group">
+                                <textarea class="form-control" name="message" rows="12" data-rule="required"
+                                  data-msg="Please write something for us" placeholder="Message"></textarea>
+                                <div class="validation"></div>
+                              </div>
+                            </div>
+                            <div class="col-lg-12">
+                              <input type="submit" class="btn btn-defeault btn-send" value="Send message">
+                            </div>
+                          </div>
+                        </form>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- start sectoion contact -->
+              <!-- start section footer -->
+              <div id="footer" class="text-center">
+                <div class="container">
+                  <div class="socials-media text-center">
+                    <ul class="list-unstyled">
+                      <ul class="list-unstyled list-social">
+                        <li><a href="https://www.facebook.com/profile.php?id=61573391287242" target="_blank"><i
+                              class="ion-social-facebook"></i></a></li>
+                        <li><a href="https://www.instagram.com/lavanya._29904/" target="_blank"><i
+                              class="ion-social-instagram"></i></a></li>
+                        <li><a href="mailto:peddamurthylavanya5@gmail.com"><i class="ion-email"></i></a></li>
+                        <li><a href="https://github.com/lavanya2994" target="_blank"><i
+                              class="ion-social-github"></i></a></li>
+                      </ul>
+                    </ul>
+                  </div>
+                  <p>&copy; Copyrights Lavanya. All rights reserved.</p>
+                  <div class="credits">
+                    <!--
+          All the links in the footer should remain intact.
+          You can delete the links only if you purchased the pro version.
+          Licensing information: https://bootstrapmade.com/license/
+          Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Folio
+        -->
+                    Designed by <a href="{{url_for('static',filename='https://bootstrapmade.com/')}}">Lavanya</a>
+                  </div>
+                </div>
+              </div>
+              <!-- End section footer -->
+              <!-- JavaScript Libraries -->
+              <script src="{{url_for('static',filename='lib/jquery/jquery.min.js')}}"></script>
+              <script src="{{url_for('static',filename='lib/jquery/jquery-migrate.min.js')}}"></script>
+              <script src="{{url_for('static',filename='lib/bootstrap/js/bootstrap.bundle.min.js')}}"></script>
+              <script src="{{url_for('static',filename='lib/typed/typed.js')}}"></script>
+              <script src="{{url_for('static',filename='lib/owlcarousel/owl.carousel.min.js')}}"></script>
+              <script src="{{url_for('static',filename='lib/magnific-popup/magnific-popup.min.js')}}"></script>
+              <script src="{{url_for('static',filename='lib/isotope/isotope.pkgd.min.js')}}"></script>
+              <!-- Contact Form JavaScript File -->
+              <script src="{{url_for('static',filename='contactform/contactform.js')}}"></script>
+              <!-- Template Main Javascript File -->
+              <script src="{{url_for('static',filename='js/main.js')}}"></script>
+</body>
+
+</html>
